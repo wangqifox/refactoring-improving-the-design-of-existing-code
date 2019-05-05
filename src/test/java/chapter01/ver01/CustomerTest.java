@@ -15,5 +15,10 @@ public class CustomerTest {
 		customer.addRental(rental);
 		String result = customer.statement();
 		System.out.println(result);
+
+		System.out.println();
+
+		result = customer.htmlStatement();
+		System.out.println(result);
 	}
 }
